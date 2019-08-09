@@ -15,6 +15,12 @@ def show_cards():
 
 	return render_template("cards.html")
 
+@app.route("/about")
+def about_page():
+    """Show all trpage about the author."""
+
+    return render_template("about.html")
+
 
 
 

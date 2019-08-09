@@ -2,14 +2,17 @@ class Homepage extends React.Component {
 	render(){
 		return (
             <div>
-            <h1>Welcome!</h1>
             <br/>
-            
             <img id="homepage-img" src="/static/img/balloonicorn.jpg"/>
             <br/>
+            <div id="btn-container">
             <button>
-                <a class="btn" href="/cards">Cards</a>
+                <a className="btn" href="/cards">Cards</a>
             </button>
+            <button>
+                <a className="btn" href="/about">About</a>
+            </button>
+            </div>
             </div>
             );
 	}
